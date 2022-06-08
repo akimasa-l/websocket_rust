@@ -10,4 +10,6 @@ source $HOME/.cargo/env
 sudo yum install gcc git
 y
 git clone https://github.com/akimasa-l/websocket_rust.git
+cd websocket_rust
+vim src/main.rs
 ```

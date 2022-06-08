@@ -25,6 +25,7 @@ fn main() {
         }
         // メッセージを受信した場合
         fn on_message(&mut self, message: Message) -> Result<()> {
+              println!("kita");
             return self.out.broadcast(message);
         }
         // WebSocketとのコネクション接続が閉じた場合
